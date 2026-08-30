@@ -34,8 +34,8 @@ char *get_greeting(const char *restrict name)
 }
 
 int get_product(int x, int y) {
-  int *val = (int *) malloc(sizeof(int));
-  *val = x * y;
+  // int *val = (int *) malloc(sizeof(int));
+  // *val = x * y;
   return x * y;
 }
 

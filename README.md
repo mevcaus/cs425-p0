@@ -6,7 +6,7 @@
 
 ## Known Bugs or Issues
 
-There are three intentional bugs in this project:
+There are three intentional bugs in this project that are all commented out:
 1. The lab.c has a memory leak in the get_product function
 2. The main.c has a null pointer dereference
 3. The main.c has a memory leak

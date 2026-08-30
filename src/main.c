@@ -21,11 +21,11 @@ int main(void)
     
     }
 
-    char *leak = (char *)malloc(10 * sizeof(char));
-    strcpy(leak, "Hello");
+    // char *leak = (char *)malloc(10 * sizeof(char));
+    // strcpy(leak, "Hello");
     
-    volatile int *ptr = NULL;
-    int value = *ptr;
-    printf("%d\n", value);
+    // volatile int *ptr = NULL;
+    // int value = *ptr;
+    // printf("%d\n", value);
     return 0;
 }
