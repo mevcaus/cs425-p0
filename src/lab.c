@@ -32,3 +32,13 @@ char *get_greeting(const char *restrict name)
 
   return greeting;
 }
+
+int get_product(int x, int y) {
+  int *val = (int *) malloc(sizeof(int));
+  *val = x * y;
+  return x * y;
+}
+
+int get_incorrect_sum(int x, int y) {
+  return 1 + x + y;
+}

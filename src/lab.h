@@ -10,5 +10,10 @@
  */
 char* get_greeting(const char* restrict name);
 
+int get_product(int x, int y);
+
+int get_incorrect_sum(int x, int y);
+
+
 
 #endif // LAB_H
